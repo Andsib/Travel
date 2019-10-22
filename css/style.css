@@ -75,13 +75,13 @@ body {
 
 .menu_link:hover {
   background-color: #d03958;
-  border-radius: 10%;
+  border-radius: 5px;
   color: white;
 }
 
 .header_article {
   margin-top: 163px;
-  width: 493px;
+  max-width: 493px;
   padding-bottom: 100px;
 }
 
@@ -114,7 +114,7 @@ body {
 }
 
 .form_section {
-  width: 400px;
+  max-width: 400px;
   padding: 30px 15px;
   background-color: #d03958;
   font-family: "Montserrat", sans-serif;
@@ -148,10 +148,10 @@ body {
   border: none;
   height: 57px;
   font-size: 20px;
+  padding-left: 20px;
 }
 
 .input::placeholder {
-  padding-left: 20px;
   color: #b5b5b5;
   font-family: "PT Serif", serif;
   font-size: 20px;
@@ -283,7 +283,7 @@ body {
   justify-content: space-between;
 }
 .story .story_box .story_text {
-  width: 600px;
+  max-width: 600px;
   font-family: "PT Serif", serif;
   color: white;
   font-size: 20px;
@@ -432,13 +432,13 @@ body {
 }
 
 .white_left {
-  width: 490px;
+  max-width: 490px;
 }
 
 .testimonial_card {
   margin-top: 60px;
   padding: 10px 75px 10px 25px;
-  width: 440px;
+  max-width: 440px;
   border-radius: 5px;
   transition: all 0.3s;
   position: relative;
@@ -489,7 +489,7 @@ body {
 }
 
 .white_right {
-  width: 390px;
+  max-width: 390px;
   text-align: center;
 }
 
@@ -503,7 +503,6 @@ body {
   margin-bottom: 70px;
   display: flex;
   justify-content: space-between;
-  align-content: space-between;
   flex-wrap: wrap;
 }
 .gallery .woman {
@@ -523,6 +522,13 @@ body {
 }
 .gallery .stones {
   background-image: url("../images/stones.png");
+}
+
+.more_pictures {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  text-align: center;
 }
 
 .more_link {
@@ -566,6 +572,232 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+@media screen and (max-width: 1050px) {
+  .first {
+    padding-bottom: 20px;
+  }
+
+  .heading {
+    margin-bottom: 80px;
+  }
+
+  .header_article {
+    margin-top: 0px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form_section {
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .services-title_purple {
+    text-align: center;
+  }
+
+  .services_cards {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card {
+    width: 40%;
+    text-align: center;
+  }
+
+  .card_icon {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .story_box {
+    flex-direction: column;
+  }
+
+  .story_text {
+    margin-bottom: 50px;
+  }
+
+  .story_text {
+    font-style: 16px;
+  }
+
+  .pricing_cards {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card_box {
+    margin: 0px 10px 30px 10px;
+    padding-bottom: 20px;
+  }
+
+  .white {
+    padding-top: 80px;
+    padding-bottom: 50px;
+  }
+
+  .white_box {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .white_left, .white_right {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .pricing_title {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 785px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heading {
+    flex-direction: column;
+    margin-bottom: 40px;
+  }
+
+  .header_nav {
+    margin-right: auto;
+  }
+
+  .header_menu {
+    width: 100%;
+    flex-direction: column;
+    padding: 0;
+    align-items: center;
+  }
+
+  .menu_link {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 3px 8px;
+    line-height: 40px;
+  }
+
+  .header_article {
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .header_title {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .form_section {
+    max-width: 300px;
+    padding: 10px 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form_title {
+    font-size: 18px;
+  }
+
+  .head_form {
+    align-items: center;
+  }
+
+  .input {
+    width: 90%;
+    margin-bottom: 15px;
+    height: 40px;
+  }
+
+  .input::placeholder {
+    font-size: 18px;
+  }
+
+  .checking .checkbox_text {
+    margin-left: 15px;
+    font-family: "PT Serif", serif;
+    font-size: 15px;
+    letter-spacing: -0.4px;
+  }
+
+  .submit {
+    width: 90%;
+  }
+
+  .services-title_purple {
+    font-size: 45px;
+  }
+
+  .services_cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .white {
+    padding-bottom: 180px;
+  }
+
+  .title3 {
+    font-size: 40px;
+  }
+
+  .testimonial_card {
+    max-width: 400px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .testimonial_text {
+    font-size: 16px;
+    max-width: 400px;
+  }
+
+  .white_right {
+    margin: 0;
+    position: relative;
+  }
+
+  .photo {
+    margin: 10px;
+  }
+
+  .man, .boy {
+    position: static;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gallery_title {
+    margin-top: 0px;
+  }
+
+  .gallery {
+    margin: 30px 0px 30px 0px;
+    justify-content: center;
+    padding-bottom: 30px;
+  }
+
+  .footer {
+    padding: 50px 0;
+  }
+
+  .footer_logo {
+    margin-left: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
