@@ -798,6 +798,10 @@ body {
   .footer_logo {
     margin-left: 20px;
   }
+
+  .footer_box .address {
+    font-size: 16px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
