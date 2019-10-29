@@ -59,7 +59,7 @@ body {
   display: flex;
   list-style: none;
   justify-content: space-between;
-  width: 30%;
+  width: 100%;
 }
 
 .menu_link {
