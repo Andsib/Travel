@@ -423,7 +423,7 @@ body {
 /*white*/
 .white {
   padding-top: 150px;
-  padding-bottom: 120px;
+  padding-bottom: 140px;
 }
 
 .white_box {
@@ -504,6 +504,9 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.gallery .photo {
+  margin-bottom: 15px;
 }
 .gallery .woman {
   background-image: url("../images/woman.png");
@@ -747,7 +750,7 @@ body {
   }
 
   .white {
-    padding-bottom: 180px;
+    padding-bottom: 200px;
   }
 
   .title3 {
