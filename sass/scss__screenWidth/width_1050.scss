@@ -1,0 +1,73 @@
+@media screen and (max-width: 1050px) {
+    // header
+    .first {
+        padding-bottom: 20px;
+    }
+    .heading {
+        margin-bottom: 80px;
+    }
+    .header_article {
+        margin-top: 0px;
+        padding-bottom: 50px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    // form
+    .form_section {
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    // services
+    .services-title_purple {
+        text-align: center;
+    }
+    .services_cards {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .card {
+        width: 40%;
+        text-align: center;
+    }
+    .card_icon {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    // section
+    .story_box {
+        flex-direction: column;
+    }
+    .story_text {
+        margin-bottom: 50px;
+    }
+    .story_text {
+        font-style: 16px;
+    }
+    // pricing
+    .pricing_cards {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .card_box {
+        margin: 0px 10px 30px 10px;
+        padding-bottom: 20px;
+    }
+    // white
+    .white {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .white_box {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .white_left, .white_right {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .pricing_title {
+        margin-top: 40px;
+    }
+}

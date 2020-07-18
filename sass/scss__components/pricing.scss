@@ -1,0 +1,101 @@
+.pricing {
+    background-color: $beige;
+    padding-top: 61px;
+}
+.pricing_title {
+    display: flex;
+    justify-content: center;
+}
+.title3 {
+    display: block;
+    margin: 0;
+    font-family: $mont;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+.pricing_cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    .card_box {
+        width: 318px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 5px;
+        .card_title {
+            font-family: $PT;
+            font-size: 22px;
+            letter-spacing: -0.44px;
+            margin: 35px 0 40px 0;
+        }
+        .card_price {
+            margin: 0 0 33px 0;
+            font-family: $mont;
+            color: $purple;
+            font-size: 60px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: -1.2px;
+            cursor: default;
+            transition: all 0.3s;
+            &:hover {
+                transform: scale(1.2);
+            }
+        }
+        .card_text {
+            margin: 0 0 42px 0;
+            text-align: center;
+            width: 170px;
+            font-family: $PT;
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: -0.4px;
+        }
+        .card_button {
+            justify-self: flex-end;
+            text-align: center;
+            width: 205px;
+            background-color: $beige;
+            padding: 15px 0;
+            text-decoration: none;
+            color: black;
+            font-family: $mont;
+            font-size: 22px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: -0.44px;
+            border-radius: 5px;
+            transition: all 0.3s;
+            &:hover {
+                background-color: $purple;
+                color: white;
+            }
+        }
+    }
+}
+.relate {
+    position: relative;
+}
+.add {    
+    display:flex;
+    align-items: start;
+    justify-content: start;
+    background-image: url('../images/triangle.png');
+    width: 90px;
+    height: 90px;
+    position:absolute;
+    left: 0;
+    padding-top: 5px;
+}
+.popular {
+    text-align: center;
+    transform: rotate(-50deg);
+    font-family: $PT;
+    font-size: 16px;
+    letter-spacing: -0.32px;
+}

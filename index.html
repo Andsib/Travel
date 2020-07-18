@@ -49,13 +49,15 @@
                         REQUEST A QUOTE
                     </P>
                     <form action="https://fom.in.ua/echo" method="POST" class="head_form">
-                        <input type="text" name="username" placeholder="Full Name" class="input">
-                        <input type="email" name="useremail" placeholder="Email Address" class="input">
-                        <input type="tel" pattern="[0-9]{5,10}" name="userphone" placeholder="Phone Number" class="input">
-                        <input type="text" name="country" placeholder="Country" class="input">
+                        <input type="text" name="username" placeholder="Full Name" class="input name">
+                        <input type="email" name="useremail" placeholder="Email Address" class="input email">
+                        <input type="tel" name="userphone" placeholder="Phone Number" class="input phone">
+                        <select type="text" name="country" class="input country">
+                            <option selected disabled>Choose your country</option>
+                        </select>
                         <div class="checking">
-                            <input id="check" type="checkbox" name="accept" class="checkbox">
-                            <div id="check" class="false_checkbox"></div>
+                            <input id="check" type="checkbox" class="checkbox">
+                            <div class="false_checkbox"></div>
                             <label class="checkbox_text" for="check">I accept the terms & conditions</label>
                         </div>
                         <input type="submit" value="SEND" class="submit">
@@ -241,5 +243,8 @@
             </div>
         </div>
     </section>
+
+    <script src='./js/countrySelection.js'></script>
+    <script src='./js/validation.js'></script>
 </body>
 </html>

@@ -1,0 +1,54 @@
+.services-title {
+    padding-top: 40px;
+}
+.services-title_purple {
+    font-family: $mont;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $purple;
+    letter-spacing: -1px;
+    margin: 0;
+    &:after {
+        content:'services';
+        color: black;
+    }
+}
+.services_cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 97px;
+    margin-bottom: 65px;
+}
+.card {
+    width: 172px;
+}
+.card_icon {
+    width: 170px;
+    height: 160px;
+    background-image: url('../images/heart.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 45px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    &:hover {
+        background-color: $purple;
+        transform: scale(1.1);
+    }
+}
+.card_text {
+    font-family: $PT;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+}
+.instruments {
+    background-image: url('../images/instruments.png');
+}
+.bulb {
+    background-image: url('../images/bulb.png');
+}
+.measure {
+    background-image: url('../images/measure.png');
+}

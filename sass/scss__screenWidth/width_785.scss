@@ -1,0 +1,126 @@
+@media screen and (max-width: 785px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+    }
+    .heading {
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .header_nav {
+        margin-right: auto;
+    }
+    .header_menu {
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+    .menu_link {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 3px 8px;
+        line-height: 40px;
+    }
+    .header_article {
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    .header_title {
+        font-size: 45px;
+        text-align: center;
+    }
+    // form
+    .form_section {
+        max-width: 300px;
+        padding: 10px 5px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form_title {
+        font-size: 18px;
+    }
+    .head_form {
+        align-items: center;
+    }
+    .input {
+        width: 90%;
+        margin-bottom: 15px;
+        height: 40px;
+    }
+    .input::placeholder {
+    font-size: 18px;
+    }
+    .checking {
+        .checkbox_text {
+            margin-left: 15px;
+            font-family: $PT;
+            font-size: 15px;
+            letter-spacing: -0.4px;
+        }
+    }
+    .submit {
+        width: 90%;
+    }
+    // services 
+    .services-title_purple {
+        font-size: 45px;
+    }
+    .services_cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 80%;
+    }
+    // white
+    .white {
+        padding-bottom: 200px;
+    }
+    .title3 {
+        font-size: 40px;
+    }
+    .testimonial_card {
+        max-width: 400px;
+        padding: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .testimonial_text {
+        font-size: 16px;
+        max-width: 400px;
+    }
+    .white_right {
+        margin: 0;
+        position: relative;
+    }
+    .photo {
+        margin: 10px;
+    }
+    .man, .boy {
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .gallery_title {
+        margin-top: 0px;
+    }
+    .gallery {
+        margin: 30px 0px 30px 0px;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+    // footer
+    .footer {
+        padding: 50px 0;
+    }
+    .footer_logo {
+        margin-left: 20px;
+    }
+    .footer_box {
+        .address {
+            font-size: 16px;
+        }
+    }
+}

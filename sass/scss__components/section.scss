@@ -1,0 +1,35 @@
+.story {
+    background-color: $purple;
+    padding: 30px 0;
+    .story_box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .story_text {
+            max-width: 600px;
+            font-family: $PT;
+            color: white;
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: -0.4px;
+        }
+    }
+}
+.story_button_link {
+    padding: 24px 70px;
+    font-family: $mont;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    text-transform: uppercase;
+    letter-spacing: -0.44px;
+    color: black;
+    text-decoration: none;
+    background-color: $beige;
+    border-radius: 5px;
+    transition: all 0.3s;
+    &:hover {
+        color: white;
+        background-color: black;
+    }
+}

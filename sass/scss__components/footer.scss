@@ -1,0 +1,26 @@
+.footer {
+    background-color: black;
+    padding: 80px 0;
+}
+.footer_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .address {
+        color: white;
+        font-family: $PT;
+        font-size: 20px;
+        letter-spacing: -0.4px;
+        &:after {
+            content: 'DesignCoon';
+            color: $purple;
+        }
+    }
+    .footer_logo {
+        width: 98px;
+        height: 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}

@@ -1,0 +1,21 @@
+$mont: 'Montserrat', sans-serif;
+$PT: 'PT Serif', serif;
+$purple: #d03958;
+$beige: #e3d5b8;
+$grey: #b5b5b5;
+body {
+    font-family: $mont;
+    margin:0;
+    padding: 0;
+    font-weight: 400;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1030px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}

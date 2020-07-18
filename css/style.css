@@ -17,7 +17,6 @@ body {
   margin-right: auto;
 }
 
-/*header*/
 .header {
   background-image: url("../images/Road.png");
   background-repeat: no-repeat;
@@ -46,7 +45,6 @@ body {
   background-image: url("../images/Logo.png");
   transition: 0.3s;
 }
-
 .logo:hover {
   transform: scale(1.1);
 }
@@ -72,7 +70,6 @@ body {
   padding: 10px 15px;
   transition: all 0.3s;
 }
-
 .menu_link:hover {
   background-color: #d03958;
   border-radius: 5px;
@@ -93,7 +90,6 @@ body {
   color: #d03958;
   margin: 0;
 }
-
 .header_title:after {
   content: "beautiful";
   color: black;
@@ -108,7 +104,6 @@ body {
   margin-top: 47px;
 }
 
-/*form*/
 .first {
   position: relative;
 }
@@ -150,7 +145,6 @@ body {
   font-size: 20px;
   padding-left: 20px;
 }
-
 .input::placeholder {
   color: #b5b5b5;
   font-family: "PT Serif", serif;
@@ -185,6 +179,7 @@ body {
   font-family: "PT Serif", serif;
   font-size: 20px;
   letter-spacing: -0.4px;
+  cursor: pointer;
 }
 
 .submit {
@@ -200,13 +195,11 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
-
 .submit:hover {
   background-color: #e3d5b8;
   color: black;
 }
 
-/*services*/
 .services-title {
   padding-top: 40px;
 }
@@ -220,7 +213,6 @@ body {
   letter-spacing: -1px;
   margin: 0;
 }
-
 .services-title_purple:after {
   content: "services";
   color: black;
@@ -247,7 +239,6 @@ body {
   border-radius: 5px;
   transition: all 0.3s;
 }
-
 .card_icon:hover {
   background-color: #d03958;
   transform: scale(1.1);
@@ -272,7 +263,6 @@ body {
   background-image: url("../images/measure.png");
 }
 
-/*section*/
 .story {
   background-color: #d03958;
   padding: 30px 0;
@@ -305,13 +295,11 @@ body {
   border-radius: 5px;
   transition: all 0.3s;
 }
-
 .story_button_link:hover {
   color: white;
   background-color: black;
 }
 
-/*pricing*/
 .pricing {
   background-color: #e3d5b8;
   padding-top: 61px;
@@ -420,7 +408,6 @@ body {
   letter-spacing: -0.32px;
 }
 
-/*white*/
 .white {
   padding-top: 150px;
   padding-bottom: 140px;
@@ -455,7 +442,6 @@ body {
   letter-spacing: -0.4px;
   color: #d03958;
 }
-
 .testimonial_card:hover {
   background-color: #e3d5b8;
 }
@@ -468,7 +454,6 @@ body {
   border: solid 1px transparent;
   transition: all 0.3s;
 }
-
 .photo:hover {
   transform: scale(1.2);
   border: 1px solid black;
@@ -543,12 +528,10 @@ body {
   color: #d03958;
   transition: color 0.3s;
 }
-
 .more_link:hover {
   color: black;
 }
 
-/*footer*/
 .footer {
   background-color: black;
   padding: 80px 0;

@@ -1,0 +1,89 @@
+.first {
+    position: relative;
+}
+.form_section {
+    max-width: 400px;
+    padding: 30px 15px;
+    background-color: $purple;
+    font-family: $mont;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: 280px;
+}
+.form_title {
+    display: flex;
+    align-self: center;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: -0.44px;
+    margin-top: 0;
+    }
+.head_form {
+    display: flex;
+    flex-direction: column;
+}
+.input {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: none;
+    height: 57px;
+    font-size: 20px;
+    padding-left: 20px;
+    &::placeholder {
+        color: $grey;
+        font-family: $PT;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: -0.4px;
+    }
+}
+.checking {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 20px;
+    .checkbox {
+        cursor: pointer;
+        position: absolute;
+        opacity: 0;
+        &:checked + .false_checkbox {
+            background-image: url('../images/tick.png');
+        }
+    }
+    .false_checkbox {
+        width: 19px;
+        height: 18px;
+        background-color: white;
+        border-radius: 5px;
+        background-size: 19px 18px;
+        }
+        .checkbox_text {
+            margin-left: 23px;
+            font-family: $PT;
+            font-size: 20px;
+            letter-spacing: -0.4px;
+            cursor: pointer;
+        }
+}
+.submit {
+    padding: 20px 0;
+    background-color: black;
+    color: white;
+    font-family: $mont;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: -0.44px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+        background-color: $beige;
+        color: black;
+    }
+}
