@@ -11,7 +11,6 @@ function submit() {
     let userCountry = document.querySelector(".country");
     let checkbox = document.querySelector(".checkbox");
     let submitButton = document.querySelector('.submit');
-    console.log(checkbox);
 
     submitButton.addEventListener('click', function (event) {
         let submitAllow = true;
@@ -54,13 +53,12 @@ function checkCountry(country) {
 
 function checkCheckbox(box) {
     let falseCheckbox = document.querySelector('.false_checkbox');
-    let checkboxText = document.querySelector('.checkbox_text')
 
     falseCheckbox.addEventListener('click', function () {
         box.checked = true;
     })
     if (box.checked != true) {
-        alert('Confirm terms & conditions');
+        alert('Please, confirm terms & conditions');
         return false;
     } else {
         return true;
