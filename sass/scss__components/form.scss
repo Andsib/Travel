@@ -71,6 +71,9 @@
             cursor: pointer;
         }
 }
+.country {
+    cursor: pointer;
+}
 .submit {
     padding: 20px 0;
     background-color: black;
@@ -124,6 +127,7 @@
     padding: 10px 30px;
     color: $purple;
     border: 1px solid black;
+    border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s;
     &:hover {

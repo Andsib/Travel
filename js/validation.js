@@ -41,10 +41,12 @@ function checkData(validation, item, text) {
 
 function checkCountry(country) {
     if (country.value === 'Choose your country') {
-        country.style.backgroundColor = 'red';
-        setTimeout(() => country.style.backgroundColor = 'white', 3000);
+        country.style.backgroundColor = 'black';
+        country.style.color = 'red';
         return false;
     } else {
+        country.style.backgroundColor = 'white';
+        country.style.color = 'black';
         return true;
     }
 }

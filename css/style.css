@@ -183,6 +183,10 @@ body {
   cursor: pointer;
 }
 
+.country {
+  cursor: pointer;
+}
+
 .submit {
   padding: 20px 0;
   background-color: black;
@@ -239,6 +243,7 @@ body {
   padding: 10px 30px;
   color: #d03958;
   border: 1px solid black;
+  border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s;
 }
