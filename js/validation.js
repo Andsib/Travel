@@ -58,13 +58,18 @@ function checkCheckbox(box) {
         box.checked = true;
     })
     if (box.checked != true) {
+<<<<<<< HEAD
         createModuleWindow();
+=======
+        alert('Please, confirm terms & conditions');
+>>>>>>> 9c48ecdfb3c2681f897877bca11ceace8f30aeb8
         return false;
     } else {
         return true;
     }
 }
 
+<<<<<<< HEAD
 function createModuleWindow() {
     let shader = document.createElement('div');
     shader.classList.add('shader');
@@ -90,3 +95,6 @@ function createModuleWindow() {
 }
 
 submit();
+=======
+submit();
+>>>>>>> 9c48ecdfb3c2681f897877bca11ceace8f30aeb8
