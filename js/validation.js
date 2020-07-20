@@ -11,7 +11,6 @@ function submit() {
     let userCountry = document.querySelector(".country");
     let checkbox = document.querySelector(".checkbox");
     let submitButton = document.querySelector('.submit');
-    console.log(checkbox);
 
     submitButton.addEventListener('click', function (event) {
         let submitAllow = true;
@@ -39,8 +38,6 @@ function checkData(validation, item, text) {
         return true;
     }
 }
-// !checkbox.classList.contains('checkbox:checked'))
-
 
 function checkCountry(country) {
     if (country.value === 'Choose your country') {
@@ -54,17 +51,40 @@ function checkCountry(country) {
 
 function checkCheckbox(box) {
     let falseCheckbox = document.querySelector('.false_checkbox');
-    let checkboxText = document.querySelector('.checkbox_text')
 
     falseCheckbox.addEventListener('click', function () {
         box.checked = true;
     })
     if (box.checked != true) {
-        alert('Confirm terms & conditions');
+        createModuleWindow();
         return false;
     } else {
         return true;
     }
+}
+
+function createModuleWindow() {
+    let shader = document.createElement('div');
+    shader.classList.add('shader');
+    document.body.append(shader);
+
+    let module = document.createElement('div');
+    module.classList.add('module');
+    shader.append(module);
+
+    let moduleText = document.createElement('p');
+    moduleText.classList.add('module_text');
+    moduleText.innerHTML = 'Please, confirm terms and conditions';
+    module.append(moduleText);
+
+    let moduleButton = document.createElement('button');
+    moduleButton.classList.add('module_button');
+    moduleButton.innerHTML = 'OK';
+    module.append(moduleButton);
+
+    moduleButton.addEventListener('click', ()=> {
+        shader.style.display = 'none';
+    })
 }
 
 submit();

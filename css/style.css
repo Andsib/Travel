@@ -135,6 +135,7 @@ body {
 .head_form {
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .input {
@@ -198,6 +199,52 @@ body {
 .submit:hover {
   background-color: #e3d5b8;
   color: black;
+}
+
+.shader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(136, 136, 204, 0.5);
+  z-index: 4;
+}
+
+.module {
+  position: fixed;
+  top: 10%;
+  left: 40%;
+  width: 300px;
+  z-index: 5;
+  border: 1px solid #d03958;
+  border-radius: 5px;
+  background-color: lightgray;
+  text-align: center;
+}
+
+.module_text {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 20px;
+  padding: 20px;
+}
+
+.module_button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 10px 30px;
+  color: #d03958;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.module_button:hover {
+  background-color: #d03958;
+  color: white;
 }
 
 .services-title {
