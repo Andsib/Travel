@@ -59,7 +59,6 @@ function checkCheckbox(box) {
     })
     if (box.checked != true) {
         createModuleWindow();
-        alert('Please, confirm terms & conditions');
         return false;
     } else {
         return true;
